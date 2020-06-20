@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.metalko.project" version="1.0.3" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>metalko</name>
+    <description>
+        Metalko Project
+    </description>
+    <author email="masmanidisd@gmail.com" href="http://www.metalko-drama.gr">
+        Masmanidis Dimitris
+    </author>
+    <content src="index.html" />
+    <access origin="*" />
+    <platform name="android">
+        <preference name="phonegap-version" value="8.0.0" />
+        <preference name="android-minSdkVersion" value="14" />            
+        <!-- <preference name="android-targetSdkVersion" value="23" />    -->
+        <icon density="ldpi" src="res/Android/res/drawable-ldpi/icon.png" />
+        <icon density="mdpi" src="res/Android/res/drawable-mdpi/icon.png" />
+        <icon density="hdpi" src="res/Android/res/drawable-hdpi/icon.png" />
+        <splash density="ldpi" src="res/Android/res/drawable-ldpi/screen.png" />
+        <splash density="mdpi" src="res/Android/res/drawable-mdpi/icon.png" />
+        <splash density="hdpi" src="res/Android/res/drawable-hdpi/icon.png" />
+    </platform>
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <allow-intent href="tel:*" />
+    <allow-intent href="sms:*" />
+    <allow-intent href="mailto:*" />
+    <allow-intent href="geo:*" />
+	<allow-intent href="market:*" />
+	<preference name="DisallowOverscroll" value="true" />
+    <!-- <preference name="AutoHideSplashScreen" value="true" />
+    <preference name="SplashScreenDelay" value="3000" /> -->
+	<preference name="android-minSdkVersion" value="14" />            
+    <preference name="android-targetSdkVersion" value="23" />  
+    <plugin name="cordova-plugin-battery-status" spec="1.2.5" />
+    <plugin name="cordova-plugin-console" spec="1.0.7" />
+    <plugin name="cordova-plugin-device" spec="1.1.7" />
+    <plugin name="cordova-plugin-splashscreen" spec="4.0.3" />
+    <plugin name="cordova-plugin-statusbar" spec="1.0.1" />
+    <plugin name="cordova-plugin-whitelist" spec="1.2.2" />
+    <plugin name="cordova-plugin-bluetooth-serial" spec="~0.4.7" />
+</widget>
