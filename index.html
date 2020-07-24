@@ -18,7 +18,7 @@
 
 	
 
-	<link rel="stylesheet" href="css/bundle-a835c8080a.css">
+	<link rel="stylesheet" href="css/bundle-7dee3f44d0.css">
 
 </head>
 
@@ -29,9 +29,10 @@
 		<div class="view view-main ios-edges">
 			<div class="page" data-name="home">
 				<div class="navbar">
+					<div class="navbar-bg"></div>
 					<div class="navbar-inner">
-						<div class="title sliding">
-							<div class="title sliding"><i class="fa fa-cogs fa-lg"></i> <span
+						<div class="title ">
+							<div class="title"><i class="fa fa-cogs fa-lg"></i> <span
 									lex='tr_checkin_title'>Program Settings
 								</span></div>
 						</div>
@@ -61,20 +62,11 @@
 													<div class="block block-strong no-padding no-margin passcode-numpad">
 														<div id="numpad-inline-container"></div>
 													</div>
-
-													 
-														
-													 
 												</div>
-
 											</li>
-											
-												
-
 										</ul>
 									</div>
 									<p class="row">
-										 
 										<button
 											class="col  button button-fill bg-color-blue"
 											onclick="app.methods.addItem()"
@@ -85,10 +77,11 @@
 								</div> 
 								 
 								<div class="col-100">
+									
 									<div class="data-table data-table-init card " style="margin-top: 55px;">
 										<!-- Card header -->
 										
-										<div class="card-header">
+										<div class="card-header bg-color-primary text-color-white text-center">
 											<div class="data-table-title">Προγραμμα</div>
 											<!-- Selected table header -->
 											<div class="data-table-header-selected">
@@ -122,22 +115,38 @@
 											</table>
 										</div>
 									</div>
+									<div class="col-100 hidden">
+										<div class="list inline-labels no-hairlines-md">
+											<ul>
+											  <li class="item-content item-input">
+												 <div class="item-media">
+													<i class="icon demo-list-icon"></i>
+												 </div>
+												 <div class="item-inner">
+													<div class="item-title item-label">Όνομα προγράμματος</div>
+													<div class="item-input-wrap">
+													  <input type="text" placeholder="">
+													  <span class="input-clear-button"></span>
+													</div>
+												 </div>
+											  </li>
+											</ul>
+										</div>
+									</div>
 									<p class="row">
-										<button class="col-33 button button-fill" id="resetForm">
-											<i class="icon f7-icons if-not-md">clear</i>
-											<i class="icon material-icons md-only">clear</i>
+										<button class="col button button-large button-outline button-raised " id="resetForm">
+											 
 											ΚΑΘΑΡΙΣΕ
 										</button>
-										<button class="col-33 button button-fill" id="loadStorage">
-											<i class="icon f7-icons if-not-md">down</i>
-											<i class="icon material-icons md-only">down</i>
-											ΦΟΡΤΩΣΕ ΠΡΟΓΡΑΜΜΑ
+										<button class="col  button button-large button-outline button-raised color-red" id="resetPosition">
+											 
+											ΕΠΑΝΑΦΟΡΑ
 										</button>
-										<button class="col-33 button button-fill" id="saveToStorage">
+										<!-- <button class="col-33 button button-fill" id="saveToStorage">
 											<i class="icon f7-icons if-not-md">save</i>
 											<i class="icon material-icons md-only">save</i>
 											ΑΠΟΘΗΚΕΥΣΕ
-										</button>
+										</button> -->
 									</p>
 								</div>
 								<div class="col-100">
@@ -212,7 +221,7 @@
 	  
 	<script type="text/javascript" src="cordova.js"></script>
 	
-	<script type="text/javascript" src="js/framework7.bundle.min.js"></script><script type="text/javascript" src="js/bundle-45e361eaa4.min.js"></script>
+	<script type="text/javascript" src="js/framework7.bundle.min.js"></script><script type="text/javascript" src="js/bundle-46a6b39d11.min.js"></script>
 </body>
 
 </html>
